@@ -1,38 +1,27 @@
-:root {
-  --primary-color: #06106b;
-  --secondary-color: #010008;
-}
-
-/*div {outline: 2px solid};*/
-
 body {
   background-color: #f0f0f0;
   font-family: Verdana, fantasy;
 }
 
 * {
-  color: var(--secondary-color);
+  color: #010008;
 }
 
 h1 {
-  color: var(--primary-color);
+  color: #06106b;
   margin-bottom: 0.25em;
 }
 
 h2 {
-  color: var(--secondary-color);
+  color: #010008;
   font-size: 1em;
   margin-top: 0;
   margin-bottom: 1em;
 }
 
 h3 {
-  color: var(--primary-color);
+  color: #06106b;
 }
-
-/* a {
-  color: var(--primary-color);
-} */
 
 .cv {
   display: flex;
